@@ -44,12 +44,15 @@ pip install -r requirements.txt
 
 ### 4. Configure your environment variables
 
-Create a `.env` file in the root directory and add your bot token:
+Create a `.env` file in the root directory and add your bot token and Database Connectin String:
 
 ```env
 DISCORD_TOKEN=your-discord-bot-token-here
+
+CONN_STR=Driver={SQL Server};Server=localhost\SQLEXPRESS;Database=DMOX;UID=sa;PWD=Your-Password;TrustServerCertificate=yes;
 ```
 
+Change the CONN_STR Information to your needs.
 **⚠️ Keep this file secret!** It is already ignored in `.gitignore`.
 
 ### 5. Run the bot
