@@ -44,11 +44,12 @@ pip install -r requirements.txt
 
 ### 4. Configure your environment variables
 
-Create a `.env` file in the root directory and add your bot token and Database Connectin String:
+Create a `.env` file in the root directory with:
 
 ```bash
 copy .env.template .env
 ```
+Add your bot token and Database connectin string:
 
 ```env
 DISCORD_TOKEN=your-discord-bot-token-here
