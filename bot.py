@@ -20,7 +20,8 @@ initial_extensions = [ #if adding commands initial them here
     "cogs.changepassword",
     "cogs.resetsecondpassword",
     "cogs.username",
-    "cogs.email"
+    "cogs.email",
+    "cogs.changeusername"
 ]
 
 @bot.event
